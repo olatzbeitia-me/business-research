@@ -26,6 +26,7 @@ Each session's scan lives in [`reports/`](./reports), dated.
 
 | Date | Report | Headline picks |
 |------|--------|----------------|
+| 2026-07-21 | [reports/2026-07-21-spreadsheet-30-day-launch-plan.md](./reports/2026-07-21-spreadsheet-30-day-launch-plan.md) | **Action plan** — 30-day Etsy spreadsheet-template launch (Pretty Arrow's playbook + UK reseller/tax niche) |
 | 2026-07-21 | [reports/2026-07-21-real-revenue-case-studies.md](./reports/2026-07-21-real-revenue-case-studies.md) | **Named businesses + verified revenue** — Emily Odio-Sutton ($560k POD), Pretty Arrow ($125k), Jess Morton (£118k Vinted) |
 | 2026-07-21 | [reports/2026-07-21.md](./reports/2026-07-21.md) | Model overview — UGC creator · Etsy digital downloads · Vinted flipping |
 

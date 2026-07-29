@@ -21,9 +21,14 @@ Runs three times a week and scans globally for emerging, trending, or underrepor
 Featured models are tracked in [`WATCHLIST.md`](./WATCHLIST.md). When one shows a significant shift — new competition, regulation, a viral spike, or a notable founder outcome — it's flagged in the next report as **[MARKET UPDATE]**.
 
 ### Email notifications (standing instruction)
-**At the end of every update, email the full refreshed content to olatzbeitia@gmail.com.**
-- Create a Gmail draft (subject = the scan date + headline) containing *all* new/updated content from that run — model breakdowns, revenue figures, action plans, and any `[MARKET UPDATE]` flags — not just a link.
-- The Gmail integration is **draft-only**, so the draft is left ready in the inbox to send with one click. If a send-capable email tool becomes available, send directly instead.
+**At the end of every update, email the full refreshed content to olatzbeitia@gmail.com — fully auto-sent.**
+1. Write that run's complete content (model breakdowns, revenue figures, action plans, any `[MARKET UPDATE]` flags — not just a link) to `notifications/YYYY-MM-DD.html`.
+2. Auto-send it:
+   ```bash
+   python3 scripts/send_report_email.py --subject "Business Model Scan — YYYY-MM-DD" --html-file notifications/YYYY-MM-DD.html
+   ```
+   The script sends via **Resend** (HTTPS — works in the web environment) or **Gmail SMTP** (local), whichever credential is set. Setup: [`notifications/README.md`](./notifications/README.md).
+3. **Fallback:** if the script exits non-zero (no credential configured), create a ready-to-send **Gmail draft** with the same content so nothing is missed.
 
 ## Reports
 

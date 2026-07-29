@@ -20,6 +20,11 @@ Runs three times a week and scans globally for emerging, trending, or underrepor
 ### Market updates
 Featured models are tracked in [`WATCHLIST.md`](./WATCHLIST.md). When one shows a significant shift — new competition, regulation, a viral spike, or a notable founder outcome — it's flagged in the next report as **[MARKET UPDATE]**.
 
+### Email notifications (standing instruction)
+**At the end of every update, email the full refreshed content to olatzbeitia@gmail.com.**
+- Create a Gmail draft (subject = the scan date + headline) containing *all* new/updated content from that run — model breakdowns, revenue figures, action plans, and any `[MARKET UPDATE]` flags — not just a link.
+- The Gmail integration is **draft-only**, so the draft is left ready in the inbox to send with one click. If a send-capable email tool becomes available, send directly instead.
+
 ## Reports
 
 Each session's scan lives in [`reports/`](./reports), dated.
